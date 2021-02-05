@@ -44,31 +44,36 @@ body {
 .menu {
     list-style: none;
     font-family: 'Lobster', cursive;
+    background: white;
     position: fixed;
-    top: 10px;
+    top: 0px;
     right: 30px;
     z-index: 10;
     cursor: pointer;
+    width: 100%;
+    margin-top: 0px;
 }
 
 .links {
-    float: left;
+    display: inline;
     color: #3309f3;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: 'Dancing Script';
     font-size: 20px;
 }
 
 .links:hover {
-    background-color: #e6f309; 
+    text-decoration: underline;
+    background-color: #e6f309;
+    font-size: 25px;
 }
 html{ 
     scroll-behavior: smooth; 
-} a 
+}
+a 
 { text-decoration: none; 
+    color: #00ff07;
 } .article:hover 
 { color:#0001ff; 
 }
@@ -77,4 +82,12 @@ html{
     background-color: #000;
     width: 70px;
     margin: 8px auto;
+}
+#writings a{
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+#Contact {
+    background: linear-gradient(#ff0000 0%, #09d5f5 25%, #00ff07 50%, #e4ff00 75%, #0005ff 100%);
 }
